@@ -4,7 +4,7 @@ const email = document.getElementById('email')
 const password = document.getElementById('password')
 const passwordtwo = document.getElementById('password-two')
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => { 
     e.preventDefault()
 
     checkInputs()
